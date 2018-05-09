@@ -1,6 +1,4 @@
 @import "variables";
-@import "tools";
-@import "styles";
 @import "bootstrap";
 @import "bootstrap-sprockets";
 @import "bootstrap-social";
@@ -8,3 +6,6 @@
 @import "supersized";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+@import "tools";
+@import "styles";
