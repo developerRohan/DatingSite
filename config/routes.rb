@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'home#index'
+  
   get 'users/index'
 
   get 'users/edit'
@@ -7,7 +9,7 @@ Rails.application.routes.draw do
 
   get 'users/matches'
 
-  get 'home/index'
+  
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
