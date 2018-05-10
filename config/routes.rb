@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
-  root 'home#index'
   
-  get 'users/index'
+  root 'home#index'
+  resources :users  
+  # get 'users/index'
 
-  get 'users/edit'
+  # get 'users/edit'
 
-  get 'users/profile'
+  # get 'users/profile'
 
-  get 'users/matches'
+  # get 'users/matches'
 
   
 
