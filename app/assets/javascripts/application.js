@@ -18,4 +18,6 @@
 //= require supersized.3.2.7
 //= require jquery.easing.min
 //= require jasny-bootstrap
+//= require jquery.jTinder
+//= require jquery.transform2d
 //= require_tree .
